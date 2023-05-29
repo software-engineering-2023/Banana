@@ -11,6 +11,9 @@
         } else if (username === "admin" && password === "admin") {
             window.location.href = "admin.html"; 
           } 
+        else{
+            alert("Username or Password Incorrect");
+        }
       });
 
 
